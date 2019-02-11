@@ -1,7 +1,7 @@
 @isTest
-private private class BeerControllerTest {
+private class BeerControllerTest {
     static testMethod void myTest() {
-        PagedResult result = BeerController.findAll('', 0, 1);
+        PagedResult result = BeerController.finfdAll('', 0, 1);
         System.assert(result != null);
      }
 }
